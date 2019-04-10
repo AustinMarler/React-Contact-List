@@ -50,10 +50,10 @@ class ContactProfile extends Component {
             <div className="profilePicture" style={{backgroundImage: 'url(' + this.state.picture + ')'}}></div>
           </div>
           <ul className="profileDataList">
-            <li><FontAwesomeIcon icon={faUser}/><span>{this.state.name}</span></li>
-            <li><FontAwesomeIcon icon={faEnvelope}/><span>{this.state.email}</span></li>
-            <li><FontAwesomeIcon icon={faMobileAlt}/><span>{this.state.phoneNum}</span></li>
-            <li><FontAwesomeIcon icon={faGlobeAmericas}/><span>{this.state.location}</span></li>
+            <li><p><FontAwesomeIcon icon={faUser}/></p><span>{this.state.name}</span></li>
+            <li><p><FontAwesomeIcon icon={faEnvelope}/></p><span>{this.state.email}</span></li>
+            <li><p><FontAwesomeIcon icon={faMobileAlt}/></p><span>{this.state.phoneNum}</span></li>
+            <li><p><FontAwesomeIcon icon={faGlobeAmericas}/></p><span>{this.state.location}</span></li>
           </ul>
         </div>
       </div>
