@@ -24,11 +24,17 @@ Html {
   margin-block-start: 0;
   margin-block-end: 0;
   border-bottom: 2px solid rgb(89, 145, 25);
+  display: fixed;
 }
 
 #contactsContainer, #contacts {
   display: flex;
   flex-direction: column;
+}
+
+#contacts {
+  height: 100vh;
+  overflow: scroll;
 }
 
 ul {
